@@ -1,0 +1,280 @@
+/* 移动版主题样式表 最后修改日期20140217 */
+/* A
+-----------------------------------------------------------------------------------------------------------*/
+/* Bar: Toolbars, dividers, slider track */
+.ui-bar-green,
+.ui-page-theme-green .ui-bar-inherit,
+html .ui-bar-green .ui-bar-inherit,
+html .ui-body-green .ui-bar-inherit,
+html body .ui-group-theme-green .ui-bar-inherit {
+	background: 			#FFF /*{green-bar-background-color}*/;
+	border-color:	 		#ddd /*{green-bar-border}*/;
+	color: 					#666 /*{green-bar-color}*/;
+	text-shadow: 0 /*{green-bar-shadow-x}*/ 1px /*{green-bar-shadow-y}*/ 0 /*{green-bar-shadow-radius}*/ 	#F4F4F4 /*{green-bar-shadow-color}*/;
+	font-weight: bold;
+}
+.ui-bar-green {
+	border-width: 1px;
+	border-style: solid;
+}
+/* Page and overlay */
+.ui-overlay-green,
+.ui-page-theme-green,
+.ui-page-theme-green .ui-panel-wrapper {
+	background: 			#f9f9f9 /*{green-page-background-color}*/;
+	border-color:	 		#bbb /*{green-page-border}*/;
+	color: 					#333 /*{green-page-color}*/;
+	text-shadow: 0 /*{green-page-shadow-x}*/ 1px /*{green-page-shadow-y}*/ 0 /*{green-page-shadow-radius}*/ 	#f3f3f3 /*{green-page-shadow-color}*/;
+}
+/* Body: Read-only lists, text inputs, collapsible content */
+.ui-body-green,
+.ui-page-theme-green .ui-body-inherit,
+html .ui-bar-green .ui-body-inherit,
+html .ui-body-green .ui-body-inherit,
+html body .ui-group-theme-green .ui-body-inherit,
+html .ui-panel-page-container-green {
+	background: 			#fff /*{a-body-background-color}*/;
+	border-color:	 		#ddd /*{a-body-border}*/;
+	color: 					#333 /*{a-body-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ 	#f3f3f3 /*{a-body-shadow-color}*/;
+}
+.ui-body-green {
+	border-width: 1px;
+	border-style: solid;
+}
+/* Links */
+.ui-page-theme-green a,
+html .ui-bar-green a,
+html .ui-body-green a,
+html body .ui-group-theme-green a {
+	color: #3388cc /*{green-link-color}*/;
+	font-weight: bold;
+}
+.ui-page-theme-green a:visited,
+html .ui-bar-green a:visited,
+html .ui-body-green a:visited,
+html body .ui-group-theme-green a:visited {
+    color: #3388cc /*{green-link-visited}*/;
+}
+.ui-page-theme-green a:hover,
+html .ui-bar-green a:hover,
+html .ui-body-green a:hover,
+html body .ui-group-theme-green a:hover {
+	color: #690 /*{green-link-hover}*/;
+}
+.ui-page-theme-green a:active,
+html .ui-bar-green a:active,
+html .ui-body-green a:active,
+html body .ui-group-theme-green a:active {
+	color: #cce99a /*{green-link-greenctive}*/;
+}
+/* Button up */
+.ui-page-theme-green .ui-btn,
+html .ui-bar-green .ui-btn,
+html .ui-body-green .ui-btn,
+html body .ui-group-theme-green .ui-btn,
+html head + body .ui-btn.ui-btn-green,
+/* Button visited */
+.ui-page-theme-green .ui-btn:visited,
+html .ui-bar-green .ui-btn:visited,
+html .ui-body-green .ui-btn:visited,
+html body .ui-group-theme-green .ui-btn:visited,
+html head + body .ui-btn.ui-btn-green:visited {
+	background: 			#690 /*{green-bup-background-color}*/;
+	border-color:	 		#ddd /*{green-bup-border}*/;
+	color: 					#fff /*{green-bup-color}*/;
+	text-shadow: 0 /*{green-bup-shadow-x}*/ 1px /*{green-bup-shadow-y}*/ 0 /*{green-bup-shadow-radius}*/ #406500 /*{green-bup-shadow-color}*/;
+}
+/* Button hover */
+.ui-page-theme-green .ui-btn:hover,
+html .ui-bar-green .ui-btn:hover,
+html .ui-body-green .ui-btn:hover,
+html body .ui-group-theme-green .ui-btn:hover,
+html head + body .ui-btn.ui-btn-green:hover {
+	background: 			#406500 /*{green-bhover-background-color}*/;
+	border-color:	 		#ddd /*{green-bhover-border}*/;
+	color: 					#fff /*{green-bhover-color}*/;
+	text-shadow: 0 /*{green-bhover-shadow-x}*/ 1px /*{green-bhover-shadow-y}*/ 0 /*{green-bhover-shadow-radius}*/ #406500 /*{green-bhover-shadow-color}*/;
+}
+/* Button down */
+.ui-page-theme-green .ui-btn:active,
+html .ui-bar-green .ui-btn:active,
+html .ui-body-green .ui-btn:active,
+html body .ui-group-theme-green .ui-btn:active,
+html head + body .ui-btn.ui-btn-green:active {
+	background: 			#7fbe00 /*{green-bdown-background-color}*/;
+	border-color:	 		#ddd /*{green-bdown-border}*/;
+	color: 					#fff /*{green-bdown-color}*/;
+	text-shadow: 0 /*{green-bdown-shadow-x}*/ 1px /*{green-bdown-shadow-y}*/ 0 /*{green-bdown-shadow-radius}*/ #406500 /*{green-bdown-shadow-color}*/;
+}
+/* Active button */
+.ui-page-theme-green .ui-btn.ui-btn-green:active,
+html .ui-bar-green .ui-btn.ui-btn-green:active,
+html .ui-body-green .ui-btn.ui-btn-green:active,
+html body .ui-group-theme-green .ui-btn.ui-btn-green:active,
+html head + body .ui-btn.ui-btn-green.ui-btn-green:active,
+/* Active checkbox icon */
+.ui-page-theme-green .ui-checkbox-on:after,
+html .ui-bar-green .ui-checkbox-on:after,
+html .ui-body-green .ui-checkbox-on:after,
+html body .ui-group-theme-green .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-green:after,
+/* Active flipswitch background */
+.ui-page-theme-green .ui-flipswitch-green:active,
+html .ui-bar-green .ui-flipswitch-green:active,
+html .ui-body-green .ui-flipswitch-green:active,
+html body .ui-group-theme-green .ui-flipswitch-green:active,
+html body .ui-flipswitch.ui-bar-green.ui-flipswitch-green:active,
+/* Active slider track */
+.ui-page-theme-green .ui-slider-track .ui-btn-green:active,
+html .ui-bar-green .ui-slider-track .ui-btn-green:active,
+html .ui-body-green .ui-slider-track .ui-btn-green:active,
+html body .ui-group-theme-green .ui-slider-track .ui-btn-green:active,
+html body div.ui-slider-track.ui-body-green .ui-btn-greenctive {
+	background-color: 		#7fbe00 /*{green-greenctive-background-color}*/;
+	border-color:	 		#3388cc /*{green-greenctive-border}*/;
+	color: 					#fff /*{green-greenctive-color}*/;
+	text-shadow: 0 /*{green-greenctive-shadow-x}*/ 1px /*{green-greenctive-shadow-y}*/ 0 /*{green-greenctive-shadow-radius}*/ #406500 /*{green-greenctive-shadow-color}*/;
+}
+/* Active radio button icon */
+.ui-page-theme-green .ui-radio-on:after,
+html .ui-bar-green .ui-radio-on:after,
+html .ui-body-green .ui-radio-on:after,
+html body .ui-group-theme-green .ui-radio-on:after,
+.ui-btn.ui-radio-on.ui-btn-green:after {
+	border-color:			#690 /*{green-greenctive-background-color}*/;
+}
+/* Focus */
+.ui-page-theme-green .ui-btn:focus,
+html .ui-bar-green .ui-btn:focus,
+html .ui-body-green .ui-btn:focus,
+html body .ui-group-theme-green .ui-btn:focus,
+html head + body .ui-btn.ui-btn-green:focus,
+/* Focus buttons and text inputs with div wrap */
+.ui-page-theme-green .ui-focus,
+html .ui-bar-green .ui-focus,
+html .ui-body-green .ui-focus,
+html body .ui-group-theme-green .ui-focus,
+html head + body .ui-btn-green.ui-focus,
+html head + body .ui-body-green.ui-focus {
+	border:1px solid #690;
+	-webkit-box-shadow: 0 0 8px rgba(102,153,0,.6) /*{green-greenctive-background-color}*/;
+	-moz-box-shadow:0 0 8px rgba(102,153,0,.6) /*{green-greenctive-background-color}*/;
+	box-shadow: 0 0 8px rgba(102,153,0,.6) /*{green-greenctive-background-color}*/;
+}
+/* Body: Read-only lists, text inputs, collapsible content */
+.ui-body-black,
+.ui-page-theme-black .ui-body-inherit,
+html .ui-bar-black .ui-body-inherit,
+html .ui-body-black .ui-body-inherit,
+html body .ui-group-theme-black .ui-body-inherit,
+html .ui-panel-page-container-black {
+	background: 			rgba(0,0,0,.5) /*{a-body-background-color}*/;
+	border-color:	 		#666 /*{a-body-border}*/;
+	color: 					#fff /*{a-body-color}*/;
+	text-shadow: 0 /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 0 /*{a-body-shadow-radius}*/ 	#333 /*{a-body-shadow-color}*/;
+}
+.ui-body-black {
+	border-width: 1px;
+	border-style: solid;
+}
+/* Button up */
+.ui-page-theme-green .ui-btn,
+html .ui-bar-green .ui-btn,
+html .ui-body-green .ui-btn,
+html body .ui-group-theme-green .ui-btn,
+html head + body .ui-btn.ui-btn-green,
+/* Button visited */
+.ui-page-theme-green .ui-btn:visited,
+html .ui-bar-green .ui-btn:visited,
+html .ui-body-green .ui-btn:visited,
+html body .ui-group-theme-green .ui-btn:visited,
+html head + body .ui-btn.ui-btn-green:visited {
+	background: 			#690 /*{green-bup-background-color}*/;
+	border-color:	 		#ddd /*{green-bup-border}*/;
+	color: 					#fff /*{green-bup-color}*/;
+	text-shadow: 0 /*{green-bup-shadow-x}*/ 1px /*{green-bup-shadow-y}*/ 0 /*{green-bup-shadow-radius}*/ #406500 /*{green-bup-shadow-color}*/;
+}
+/* Button hover */
+.ui-page-theme-green .ui-btn:hover,
+html .ui-bar-green .ui-btn:hover,
+html .ui-body-green .ui-btn:hover,
+html body .ui-group-theme-green .ui-btn:hover,
+html head + body .ui-btn.ui-btn-green:hover {
+	background: 			#406500 /*{green-bhover-background-color}*/;
+	border-color:	 		#ddd /*{green-bhover-border}*/;
+	color: 					#fff /*{green-bhover-color}*/;
+	text-shadow: 0 /*{green-bhover-shadow-x}*/ 1px /*{green-bhover-shadow-y}*/ 0 /*{green-bhover-shadow-radius}*/ #406500 /*{green-bhover-shadow-color}*/;
+}
+
+/*black*/
+/* Button down */
+.ui-page-theme-green .ui-btn:active,
+html .ui-bar-green .ui-btn:active,
+html .ui-body-green .ui-btn:active,
+html body .ui-group-theme-green .ui-btn:active,
+html head + body .ui-btn.ui-btn-green:active {
+	background: 			#77b300 /*{green-bdown-background-color}*/;
+	border-color:	 		#ddd /*{green-bdown-border}*/;
+	color: 					#fff /*{green-bdown-color}*/;
+	text-shadow: 0 /*{green-bdown-shadow-x}*/ 1px /*{green-bdown-shadow-y}*/ 0 /*{green-bdown-shadow-radius}*/ #406500 /*{green-bdown-shadow-color}*/;
+}
+
+/*orange*/
+/* Button up */
+.ui-page-theme-orange .ui-btn,
+html .ui-bar-orange .ui-btn,
+html .ui-body-orange .ui-btn,
+html body .ui-group-theme-orange .ui-btn,
+html head + body .ui-btn.ui-btn-orange,
+/* Button visited */
+.ui-page-theme-orange .ui-btn:visited,
+html .ui-bar-orange .ui-btn:visited,
+html .ui-body-orange .ui-btn:visited,
+html body .ui-group-theme-orange .ui-btn:visited,
+html head + body .ui-btn.ui-btn-orange:visited {
+	background: 			#F99728 /*{orange-bup-background-color}*/;
+	border-color:	 		#ddd /*{orange-bup-border}*/;
+	color: 					#fff /*{orange-bup-color}*/;
+	text-shadow: 0 /*{orange-bup-shadow-x}*/ 1px /*{orange-bup-shadow-y}*/ 0 /*{orange-bup-shadow-radius}*/ #d24c00 /*{orange-bup-shadow-color}*/;
+}
+/* Button hover */
+.ui-page-theme-orange .ui-btn:hover,
+html .ui-bar-orange .ui-btn:hover,
+html .ui-body-orange .ui-btn:hover,
+html body .ui-group-theme-orange .ui-btn:hover,
+html head + body .ui-btn.ui-btn-orange:hover {
+	background: 			#d24c00 /*{orange-bhover-background-color}*/;
+	border-color:	 		#ddd /*{orange-bhover-border}*/;
+	color: 					#fff /*{orange-bhover-color}*/;
+	text-shadow: 0 /*{orange-bhover-shadow-x}*/ 1px /*{orange-bhover-shadow-y}*/ 0 /*{orange-bhover-shadow-radius}*/ #d24c00 /*{orange-bhover-shadow-color}*/;
+}
+/* Active button */
+.ui-page-theme-orange .ui-btn.ui-btn-orange:active,
+html .ui-bar-orange .ui-btn.ui-btn-orange:active,
+html .ui-body-orange .ui-btn.ui-btn-orange:active,
+html body .ui-group-theme-orange .ui-btn.ui-btn-orange:active,
+html head + body .ui-btn.ui-btn-orange.ui-btn-orange:active,
+/* Active checkbox icon */
+.ui-page-theme-orange .ui-checkbox-on:after,
+html .ui-bar-orange .ui-checkbox-on:after,
+html .ui-body-orange .ui-checkbox-on:after,
+html body .ui-group-theme-orange .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-orange:after,
+/* Active flipswitch background */
+.ui-page-theme-orange .ui-flipswitch-orange:active,
+html .ui-bar-orange .ui-flipswitch-orange:active,
+html .ui-body-orange .ui-flipswitch-orange:active,
+html body .ui-group-theme-orange .ui-flipswitch-orange:active,
+html body .ui-flipswitch.ui-bar-orange.ui-flipswitch-orange:active,
+/* Active slider track */
+.ui-page-theme-orange .ui-slider-track .ui-btn-orange:active,
+html .ui-bar-orange .ui-slider-track .ui-btn-orange:active,
+html .ui-body-orange .ui-slider-track .ui-btn-orange:active,
+html body .ui-group-theme-orange .ui-slider-track .ui-btn-orange:active,
+html body div.ui-slider-track.ui-body-orange .ui-btn-orange:active {
+	background-color: 		#ff9a29 /*{orange-orangective-background-color}*/;
+	border-color:	 		#ddd /*{orange-orangective-border}*/;
+	color: 					#fff /*{orange-orangective-color}*/;
+	text-shadow: 0 /*{orange-orangective-shadow-x}*/ 1px /*{orange-orangective-shadow-y}*/ 0 /*{orange-orangective-shadow-radius}*/ #d24c00 /*{orange-orangective-shadow-color}*/;
+}
