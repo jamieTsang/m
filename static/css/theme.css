@@ -47,14 +47,14 @@ html .ui-panel-page-container-green {
 html .ui-bar-green a,
 html .ui-body-green a,
 html body .ui-group-theme-green a {
-	color: #3388cc /*{green-link-color}*/;
+	color: #690 /*{green-link-color}*/;
 	font-weight: bold;
 }
 .ui-page-theme-green a:visited,
 html .ui-bar-green a:visited,
 html .ui-body-green a:visited,
 html body .ui-group-theme-green a:visited {
-    color: #3388cc /*{green-link-visited}*/;
+    color: #690 /*{green-link-visited}*/;
 }
 .ui-page-theme-green a:hover,
 html .ui-bar-green a:hover,
