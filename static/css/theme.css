@@ -1,4 +1,8 @@
 /* 移动版主题样式表 最后修改日期20140217 */
+/* reset */
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
 /* A
 -----------------------------------------------------------------------------------------------------------*/
 /* Bar: Toolbars, dividers, slider track */
@@ -278,3 +282,4 @@ html body div.ui-slider-track.ui-body-orange .ui-btn-orange:active {
 	color: 					#fff /*{orange-orangective-color}*/;
 	text-shadow: 0 /*{orange-orangective-shadow-x}*/ 1px /*{orange-orangective-shadow-y}*/ 0 /*{orange-orangective-shadow-radius}*/ #d24c00 /*{orange-orangective-shadow-color}*/;
 }
+

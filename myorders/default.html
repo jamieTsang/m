@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-<link rel="shortcut icon" href="/m/Static/images/Favicon.ico" />
+<link rel="shortcut icon" href="../static/images/Favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/m/static/css/jquery.mobile-1.4.1.min.css">
-<link rel="stylesheet" href="/m/static/css/theme.css">
-<script src="/m/static/js/jquery.js"></script>
-<script src="/m/static/js/jquery.mobile-1.4.1.min.js"></script>
-<script src="/m/static/js/m_code.js"></script>
+<link rel="stylesheet" href="../static/css/jquery.mobile-1.4.1.min.css">
+<link rel="stylesheet" href="../static/css/theme.css">
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/jquery.mobile-1.4.1.min.js"></script>
+<script src="../static/js/m_code.js"></script>
 </head>
 <!-- Home -->
 <body>
@@ -31,16 +31,15 @@
                 </label>
                 <input name="" id="textinput2" placeholder="请输入您的联系人手机号码" value="" type="text">
             </div>
-            <a href="#page2" data-role="button" data-transition="slide" value="确定" onclick="showLoader()">查询</a>
+            <a data-role="button" data-transition="slide" value="确定" onclick="showLoader()">查询</a>
             <h5>
-                注：暂时只支持通过电话及网站预订的订单信息查询。如有疑问，请致电客服热线020-86338888咨询。
+                注：暂时只支持通过电话及网站预订的订单信息查询。如有疑问，请致电客服热线<a href="tel:02086338888">020-86338888</a>咨询。
             </h5>
 		</div>
 	</div>
 	<div data-role="page" id="page2" data-theme="green">
 		<div data-role="header">
-			<!-- <a type="submit" data-theme="green" data-role="button" href="default.html" value="">返回查询</a> -->
-			<a href="#page1" data-theme="a" data-transition="slide" data-role="button" data-icon="back" data-iconpos="left">返回</a>
+			<a href="#page1" data-theme="a" data-transition="slide" data-direction="reverse" data-role="button" data-icon="back" data-iconpos="left">返回</a>
 			<h3>
 				订单查询
 			</h3>
@@ -65,11 +64,21 @@
                 <label for="textinput3">123</label>
             </div>
             <div data-role="fieldcontain">
-                <label for="textinput4">
-                    单价：
+				<label>单价</label><!-- 参团游的以这个格式输出 -->
+                <label>
+                	<label for="textinput4">
+                	    成人价格：3999元
+                	</label>
+                	<label for="textinput4">
+                						小孩价格：3999元
+                	</label>
                 </label>
-                <label for="textinput4">123</label>
             </div>
+			<!-- <div data-role="fieldcontain">如果为门票、酒店以这个格式输出
+				<label>单价：</label>
+                <label>3999元</label>
+                </label>
+            </div> -->
             <div data-role="fieldcontain">
                 <label for="textinput5">
                     费用合计：
@@ -79,6 +88,7 @@
             
 		</div>
 	</div>
+	
 <!-- </form> -->
 </body>
 </html>

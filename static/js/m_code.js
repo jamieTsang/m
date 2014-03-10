@@ -13,8 +13,14 @@
             url  : "handle.aspx",//演示文件请删除!
             cache : false, 
             data : null, 
-            success : function(){hideLoader();}, 
-            error : function(){hideLoader();showError('错误');}
+            success : function(){
+						hideLoader();
+						$.mobile.changePage("#page2",{ transition: "slide", changeHash: false });
+					}, 
+            error : function(){
+						hideLoader();
+						showError('错误');
+					}
         }); 
 	}
 	  
